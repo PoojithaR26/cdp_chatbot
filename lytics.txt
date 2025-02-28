@@ -1,0 +1,27 @@
+# Lytics - Creating an Audience Segment
+To create an audience in Lytics:
+1. Log in to the Lytics dashboard.
+2. Navigate to "Segments" and click "New Segment."
+3. Use filters to define your audience (e.g., users from the last 30 days).
+4. Save the segment.
+
+# Lytics - User Profile Management
+1. Open "Profiles" in Lytics.
+2. Search for a user by ID or email.
+3. View attributes and past interactions.
+4. Edit traits if needed.
+
+# Lytics - Event Tracking
+1. Use the Lytics JavaScript SDK to send events.
+2. Example:
+```JavaScript
+Lytics.track("purchase", { amount: 50, currency: "USD" });
+```
+
+3. Check if the event appears in the "Events" section.
+
+# Lytics - Integration with Third-Party Tools
+1. Open "Integrations" in Lytics.
+2. Choose a platform like Facebook Ads or Google Analytics.
+3. Connect using API keys and authentication.
+4. Activate the integration.

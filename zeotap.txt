@@ -1,0 +1,26 @@
+# Zeotap - Data Integration Process
+1. Log in to the Zeotap dashboard.
+2. Navigate to "Data Sources."
+3. Click "Add Data Source" and upload the required files.
+4. Map the columns to Zeotap's data model.
+5. Click "Process Data."
+
+# Zeotap - Audience Creation
+1. Open the "Audiences" tab.
+2. Click "Create Audience."
+3. Define filters and conditions (e.g., users aged 25-40).
+4. Save and use the audience in campaigns.
+
+# Zeotap - API Event Tracking
+1. Send an HTTP request to Zeotap's API.
+2. Example:
+```
+POST /track HTTP/1.1 Host: api.zeotap.com Content-Type: application/json { "event": "purchase", "user": {"id": "12345"}, "properties": {"amount": 100} }
+```
+3. Verify the data in the Zeotap dashboard.
+
+# Zeotap - Exporting Data
+1. Go to "Data Export."
+2. Choose a destination (e.g., AWS S3, Google BigQuery).
+3. Configure export settings.
+4. Click "Start Export."

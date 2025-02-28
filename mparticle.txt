@@ -1,0 +1,27 @@
+# mParticle - Creating a User Profile
+To create a user profile in mParticle:
+1. Log in to your mParticle account.
+2. Navigate to "Audiences" and select "New Profile."
+3. Enter user details and segmentation rules.
+4. Click "Save."
+
+# mParticle - Event Tracking
+For tracking events in mParticle:
+1. Use the `MPEvent` object in the SDK.
+2. Example:
+```
+let event = MPEvent(name: "Purchase", type: .transaction) event.info = {"amount": 100, "currency": "USD"} MParticle.sharedInstance()?.logEvent(event)
+```
+3. Verify the event in the dashboard.
+
+# mParticle - Setting Up Integrations
+1. Go to "Connections" → "Integrations."
+2. Select a service (e.g., Firebase, Mixpanel).
+3. Enter API keys and authentication details.
+4. Click "Save" to activate the integration.
+
+# mParticle - Audience Segmentation
+1. Open "Audiences" in mParticle.
+2. Click "Create Audience."
+3. Define segmentation rules (e.g., users who made a purchase).
+4. Save and use the audience for targeted actions.

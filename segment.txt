@@ -1,0 +1,25 @@
+# Segment - Setting Up a New Source
+To set up a new source in Segment:
+1. Log in to your Segment account.
+2. Go to the "Sources" tab.
+3. Click "Add Source" and select the data source.
+4. Follow the setup instructions and configure the required settings.
+5. Click "Save" to finalize.
+
+# Segment - Tracking Events
+To track events in Segment:
+1. Use the Segment SDK in your application.
+2. Call `analytics.track("Event Name", properties)`.
+3. Ensure the event appears in your Segment debugger.
+
+# Segment - Creating an Audience
+1. Navigate to "Audiences" in the Segment UI.
+2. Click "Create Audience."
+3. Define the rules based on user traits and behavior.
+4. Click "Save Audience" and connect to a destination.
+
+# Segment - Integrating with Destinations
+1. Go to "Destinations" in Segment.
+2. Click "Add Destination" and choose a service (e.g., Google Analytics).
+3. Enter the required API keys and configuration settings.
+4. Click "Enable" to activate the integration.
